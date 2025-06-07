@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 :style="{color:colorTexto}">{{ mensaje1 }}</h1>
-    <h2 :style="{color:colorTexto}">{{ mensaje2 }}</h2>
+    <p :style="{color:colorTexto}">{{ mensaje1 }}</p>
+    <p :style="{color:colorTexto}">{{ mensaje2 }}</p>
   </div>
 </template>
 
@@ -24,6 +24,11 @@ props:{
 }
 </script>
 
-<style>
-
+<style scoped>
+p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
 </style>

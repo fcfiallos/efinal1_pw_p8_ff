@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container-interno-1{
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@ img{
 }
 
 p{
-    font-style: bold;
+    font-weight: bold;
     font-size: 18px;
 }
 </style>
